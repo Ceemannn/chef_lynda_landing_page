@@ -120,7 +120,7 @@ function App() {
               </p>
 
               <p className="text-cream/70 mb-8 max-w-lg">
-                A Practical Guide for Nigerian Food Businesses. Transform your cooking passion into a profitable, sustainable empire.
+                A Practical Guide for Food Businesses. Transform your cooking passion into a profitable, sustainable empire.
               </p>
 
               {/* Countdown Timer */}
