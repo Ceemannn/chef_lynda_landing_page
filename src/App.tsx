@@ -120,7 +120,7 @@ function App() {
               </p>
 
               <p className="text-cream/70 mb-8 max-w-lg">
-                A Practical Guide for Nigerian Food Businesses — Transform your cooking passion into a profitable, sustainable empire.
+                A Practical Guide for Nigerian Food Businesses. Transform your cooking passion into a profitable, sustainable empire.
               </p>
 
               {/* Countdown Timer */}
@@ -197,7 +197,7 @@ function App() {
                 A Practical Guide for Food Entrepreneurs
               </h3>
               <p className="text-soft-black/80 mb-6 leading-relaxed">
-                <strong>The Business of Food</strong> is a practical guide for anyone looking to turn cooking skills into a profitable and sustainable food business. Written from real-life experience, Chef Lyn breaks down the often-ignored business side of food—pricing, food costing, branding, operations, consistency, and growth.
+                <strong>The Business of Food</strong> is a practical guide for anyone looking to turn cooking skills into a profitable and sustainable food business. Written from real-life experience, Chef Lyn breaks down the often ignored business side of food; pricing, food costing, branding, operations, consistency, and growth.
               </p>
               <p className="text-soft-black/80 mb-8 leading-relaxed">
                 This ebook helps readers stop guessing, avoid common mistakes, and start making informed business decisions that support long-term success in the food industry.
@@ -307,8 +307,11 @@ function App() {
             <div className="relative">
               <div className="relative z-10">
                 <img 
-                  src="/author.jpg" 
+                  src="/author-meet.jpg" 
                   alt="Chef Lynda Ewalefoh" 
+                  onError={(e) => {
+                    e.currentTarget.src = '/author.jpg'
+                  }}
                   className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
                 />
               </div>
