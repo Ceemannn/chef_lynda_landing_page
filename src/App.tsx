@@ -342,13 +342,13 @@ function App() {
               {/* Social Links */}
               <div className="flex gap-4">
                 <a 
-                  href="https://instagram.com/cheflyn" 
+                  href="https://www.instagram.com/cheflynad/?utm_source=ig_web_button_share_sheet" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full hover:bg-primary-light transition-colors"
                 >
                   <Instagram className="w-5 h-5" />
-                  @cheflyn
+                  @cheflynad
                 </a>
                 <a 
                   href="https://tiktok.com/@lyndishesculinaryschool" 
@@ -362,7 +362,7 @@ function App() {
                   TikTok
                 </a>
                 <a 
-                  href="https://youtube.com/@Cheflyn" 
+                  href="https://www.youtube.com/@ChefLyn-b1s" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition-colors"
